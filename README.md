@@ -1,6 +1,6 @@
 
 [TOC]
-> **使用 Typora 编写，建议 clone 下来使用 Typora 进行查看**
+> **由于使用 Typora 进行编写，所以有些格式不同，建议 clone 下来使用 Typora 进行查看**
 
 # 图形化使用 Git 的保姆级教程
 
@@ -12,7 +12,7 @@
 >
 > 注：本教程需要一定 git 基础，且教程内不会教什么是 commit、add、push 等作用，这些请自己学习 git 指令
 >
-> 还没学习 git 指令的请[点我](#git 学习推荐网站)
+> 还没学习 git 指令的请[点我](#git学习推荐网站)
 
 > 你说 idea 可以 Github Desktop 的所有操作，为什么还要 Github Desktop？
 >
@@ -26,7 +26,7 @@
 
 ### 登录
 
-1、点击Sign in 打开浏览器登录，如果登录打不开，多半是强，请看[改host](#改 host 访问 Github)
+1、点击Sign in 打开浏览器登录，如果登录打不开，多半是强，请看[改host](#改host访问github)
 
 <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211020192222298.png" alt="image-20211020194102498" style="zoom:40%;" />
 
@@ -100,7 +100,7 @@
 
 
 
-### 更方便的 clone
+### 更方便的clone
 
 > 有了 Github Desktop 后，在 github 中可以点击 Code 然后调用 Github Desktop 直接 clone 项目
 >
@@ -114,7 +114,7 @@
 
 > Github Desktop 虽然好用，但我们更多的用的是 idea 里的窗口化
 
-### idea 有关 Git 的基本设置
+### idea有关Git的基本设置
 
 1、安装 Git
 
@@ -164,7 +164,7 @@
 
 
 
-### 新建一个类再 push 到云端
+### 新建一个类再push到云端
 
 1、如果我在 src 文件夹下新建了一个类，则会弹出下图
 
@@ -232,7 +232,7 @@
 
 
 
-### 修改代码再 push
+### 修改代码再push
 
 1、开始修改代码
 
@@ -260,7 +260,7 @@
 
 
 
-### 如何回退到之前 commit 的代码
+### 如何回退到之前commit的代码
 
 > **以下为高阶操作，请在熟悉前面的操作下再看**
 >
@@ -268,7 +268,7 @@
 >
 > 我先倒着讲回退后要处理的麻烦事
 
-#### 回退后的 Push
+#### 回退后的Push
 
 1、已经 push 到云端
 
@@ -504,13 +504,13 @@
 
 # 补充
 
-## git 学习推荐网站
+## git学习推荐网站
 
 1、首推：[廖老师的官网](https://www.liaoxuefeng.com/wiki/896043488029600)（别想错了，不是我们的廖老师，但我们的廖老师更强[狗头]）
 
 2、视图化的学习 git：[Learn Git Braancing](https://learngitbranching.js.org/?locale=zh_CN)（一个用视图化学习 git 分支操作的网站）
 
-## 改 host 访问 Github
+## 改host访问Github
 
 1、[点我看教程](https://zhuanlan.zhihu.com/p/368485412#:~:text=%20%E5%BE%88%E5%A4%9A%E4%BA%BA%E4%BC%9A%E5%87%BA%E7%8E%B0%EE%80%80Github%EE%80%81%E7%AA%81%E7%84%B6%EE%80%80%E7%99%BB%E4%B8%8D%EE%80%81%E4%B8%8A%E5%8E%BB%EF%BC%8C%E6%88%96%E8%80%85%E8%AE%BF%E9%97%AE%E9%80%9F%E5%BA%A6%E5%BE%88%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98%E3%80%82%E5%85%B6%E5%AE%9E%E6%94%B9%E4%B8%AAHOST%E5%B0%B1%E8%83%BD%E8%A7%A3%E5%86%B3%E3%80%82%20%E6%89%BE%E5%88%B0%E4%BC%98%E7%A7%80%E7%9A%84%E8%AE%BF%E9%97%AE%E5%BB%B6%E8%BF%9FIP,%E6%88%91%E4%BB%AC%E5%8E%BB%20%E7%BD%91%E7%AB%99%E6%B5%8B%E9%80%9F%20%E6%B5%8B%E8%AF%95%E5%85%A8%E7%90%83%E5%90%84%E5%9C%B0%E8%BF%9E%E6%8E%A5%EE%80%80github%EE%80%81.com%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8IP%E5%92%8C%E5%93%8D%E5%BA%94%E9%80%9F%E5%BA%A6%EF%BC%8C%E9%9C%80%E8%A6%81%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%E6%B5%8B%E8%AF%95%E5%85%A8%E9%83%A8%E6%95%B0%E6%8D%AE%E3%80%82)
 
@@ -526,7 +526,7 @@
 
 3、改 host 仍然会存在不稳定的情况，这个就要靠你们自己解决了
 
-## Amend 按钮（改正上一次提交）
+## Amend按钮（改正上一次提交）
 
 > 该按钮用于以下情况：
 >
@@ -554,7 +554,7 @@
 
 4、最后再说一遍，前提是**这次提交还没有 push 到云端**，出问题了自己去回退 commit 解决
 
-## Commit 规范
+## Commit规范
 
 > 描述写法如下：
 >
