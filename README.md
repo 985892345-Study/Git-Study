@@ -16,7 +16,7 @@
 
 > 你说 idea 可以 Github Desktop 的所有操作，为什么还要 Github Desktop？
 >
-> 因为 idea 里的 GitHub 经常有一些玄学问题，看到后面我会介绍，Github Deskt
+> 因为 idea 里的 GitHub 插件经常有一些玄学问题，在后面我会指出
 
 ### 下载
 
