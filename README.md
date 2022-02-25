@@ -1,6 +1,6 @@
----
-typora-copy-images-to: upload
----
+
+[TOC]
+> 使用 Typora 编写，建议 clone 下来使用 Typora 进行查看
 
 # 图形化使用 Git 的保姆级教程
 
@@ -28,21 +28,21 @@ typora-copy-images-to: upload
 
 1、点击Sign in 打开浏览器登录，如果登录打不开，多半是强，请看[改host](#改 host 访问 Github)
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211020192222298.png" alt="image-20211020194102498" style="zoom:40%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211020192222298.png" alt="image-20211020194102498" style="zoom:40%;" />
 
 2、登陆后这里建议更换邮箱为自己注册 github 时的邮箱(点击右边向下箭头)
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211020193744614.png" alt="image-20211020193744614" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211020193744614.png" alt="image-20211020193744614" style="zoom:50%;" />
 
 3、进入这个界面就🆗了
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211020194102498.png" alt="image-20211020192222298" style="zoom:33%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211020194102498.png" alt="image-20211020192222298" style="zoom:33%;" />
 
 ### 创建本地仓库
 
 1、点击左上角 File - Add local repository
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211020194311766.png" alt="image-20211020194311766" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211020194311766.png" alt="image-20211020194311766" style="zoom:50%;" />
 
 > 学长，创建本地仓库为什么不点第一个 New repository?
 >
@@ -50,23 +50,23 @@ typora-copy-images-to: upload
 
 2、点击 Choose 然后选择你的项目文件夹
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211020195540651.png" alt="image-20211020195540651" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211020195540651.png" alt="image-20211020195540651" style="zoom:50%;" />
 
 > 例如我有一个叫 Test 的项目，就选择他就 OK（别选到里面的 src 这些，我们需要的是整个项目文件）
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211020195416879.png" alt="image-20211020195416879" style="zoom: 50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211020195416879.png" alt="image-20211020195416879" style="zoom: 50%;" />
 
 3、然后点击 create a repository 创建本地仓库
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211020202240883.png" alt="image-20211020202240883" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211020202240883.png" alt="image-20211020202240883" style="zoom:50%;" />
 
 4、描述和README
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211020203558784.png" alt="image-20211020203558784" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211020203558784.png" alt="image-20211020203558784" style="zoom:50%;" />
 
 5、到这里你的本地仓库就创建完了
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211020200657266.png" alt="image-20211020200657266" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211020200657266.png" alt="image-20211020200657266" style="zoom:50%;" />
 
 > 学长，提交是什么意思？
 >
@@ -80,23 +80,23 @@ typora-copy-images-to: upload
 
 1、上传本地仓库至 Github，点击下图所示
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022214611182.png" alt="image-20211023005207748" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022214611182.png" alt="image-20211023005207748" style="zoom:50%;" />
 
 2、在这里有一个坑，它默认云端仓库是 private，视自己情况可以选择关闭这个选项（但发给我们的作业必须关闭这个）
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022214855455.png" alt="image-20211022214855455" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022214855455.png" alt="image-20211022214855455" style="zoom:50%;" />
 
 3.1、出现下图一般是墙的问题，这个请看[改host](#改 host 访问 Github)
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023005301191.png" alt="image-20211022214611182" style="zoom: 50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023005301191.png" alt="image-20211022214611182" style="zoom: 50%;" />
 
 3.2、当左下角的 Initial commit 没有的时候，恭喜你上传成功，接下来点击 View on Github 打开 github（可以记下这个快捷打开方式）
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022220705131.png" alt="image-20211023010229811" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022220705131.png" alt="image-20211023010229811" style="zoom:50%;" />
 
 4、成功的界面
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023005207748.png" alt="image-20211022221020408" style="zoom:25%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023005207748.png" alt="image-20211022221020408" style="zoom:25%;" />
 
 
 
@@ -104,7 +104,7 @@ typora-copy-images-to: upload
 
 > 有了 Github Desktop 后，在 github 中可以点击 Code 然后调用 Github Desktop 直接 clone 项目
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023010229811.png" alt="image-20211023005301191" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023010229811.png" alt="image-20211023005301191" style="zoom:50%;" />
 
 
 
@@ -118,47 +118,47 @@ typora-copy-images-to: upload
 
 1、安装 Git
 
-> idea 必须安装 git 才能使用 git 窗口化<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoratyporaimage-20211022221020408.png" alt="image-20211022220705131" style="zoom: 33%;" />
+> idea 必须安装 git 才能使用 git 窗口化<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoratyporaimage-20211022221020408.png" alt="image-20211022220705131" style="zoom: 33%;" />
 >
 > 下载地址（注意有强，自己解决）：https://git-scm.com/download/win
 
 2、在经历了上面的  Github Desktop 给 Test 项目创建仓库后，idea 会出现下图标志
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023001120982.png" alt="image-20211022223113119" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023001120982.png" alt="image-20211022223113119" style="zoom:50%;" />
 
 3、在 idea 中登录 github 账号，打开设置
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022221827273.png" alt="image-20211022221827273" style="zoom: 40%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022221827273.png" alt="image-20211022221827273" style="zoom: 40%;" />
 
 4、注意，这里选择 Token 登录
 
 > 用 Token 不直接用  Github 账号登是因为我一直没有用账号登起过，如何拿到 Token 请往下看
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022221928674.png" alt="image-20211023001120982" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022221928674.png" alt="image-20211023001120982" style="zoom:50%;" />
 
 5、进入你的 Github 网页，点击右上角头像，在点击 Settings
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022222239011.png" alt="image-20211022221928674" style="zoom: 50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022222239011.png" alt="image-20211022221928674" style="zoom: 50%;" />
 
 6、点击左边栏下面的 Developer settings
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022222420637.png" alt="image-20211022222239011" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022222420637.png" alt="image-20211022222239011" style="zoom:50%;" />
 
 7、点击  Personal access tokens，在点  Generate new token
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022222612293.png" alt="image-20211022222612293" style="zoom:40%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022222612293.png" alt="image-20211022222612293" style="zoom:40%;" />
 
 8、设置名称、过期日期，再把**所有的都✔**
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022223004291.png" alt="image-20211022225956470" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022223004291.png" alt="image-20211022225956470" style="zoom:50%;" />
 
 9、生成后点击下图的复制图标
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022223113119.png" alt="image-20211022224327576" style="zoom:67%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022223113119.png" alt="image-20211022224327576" style="zoom:67%;" />
 
 10、回到第 4 步，粘贴 Token，完成登录
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022223201057.png" alt="image-20211022222420637" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022223201057.png" alt="image-20211022222420637" style="zoom:50%;" />
 
 
 
@@ -168,39 +168,39 @@ typora-copy-images-to: upload
 
 1、如果我在 src 文件夹下新建了一个类，则会弹出下图
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022223543205.png" alt="image-20211022223004291" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022223543205.png" alt="image-20211022223004291" style="zoom:50%;" />
 
 > 这个意思是是否直接使用 add 指令，学过 git 指令应该都知道选择什么，如果不知道，**请先学习 git 指令**
 
 2、选择了 Add 后，可以发现类名变绿了
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022224327576.png" alt="image-20211022223201057" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022224327576.png" alt="image-20211022223201057" style="zoom:50%;" />
 
 > 变绿即代表已对该类使用过 add 指令
 
 3、这里我简单的就只写个 main 函数，请记住下图左边栏的颜色（现在没有任何其他颜色）
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022224522086.png" alt="image-20211022223543205" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022224522086.png" alt="image-20211022223543205" style="zoom:50%;" />
 
 4、点击前面提到的 commit
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022224711484.png" alt="image-20211022224711484" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022224711484.png" alt="image-20211022224711484" style="zoom:50%;" />
 
 5、在弹出来的左边窗口中写个简单的描述，再点击  commit
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022225036691.png" alt="image-20211022230638721" style="zoom: 50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022225036691.png" alt="image-20211022230638721" style="zoom: 50%;" />
 
 > 在这里简单写的 commit，可是有一定规范的，请[点我](#Commit 规范)
 
 > 图中在描述上方有一个 Amend 按钮，该按钮较常用，教程请[点我](#Amend 按钮)
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022225413728.png" alt="image-20211022224522086" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022225413728.png" alt="image-20211022224522086" style="zoom:50%;" />
 >
 > **注意：这里可不要点！**
 
 6、commit 后可发现类名不再是绿色了，此时我们可以 push 代码到远端，点击如图按钮
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022225956470.png" alt="image-20211022225036691" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022225956470.png" alt="image-20211022225036691" style="zoom:50%;" />
 
 > 然后出现下图界面，这界面相信大家都看得懂，一般情况下直接点击 Push 即可
 >
@@ -208,25 +208,25 @@ typora-copy-images-to: upload
 >
 > 2、还可实现强制退送到云端，选择 Push 按钮右边的箭头可改为强推，具体的请看[回退后的 Push](#回退后的 Push)
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022230106611.png" alt="image-20211022230459658" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022230106611.png" alt="image-20211022230459658" style="zoom:50%;" />
 
 7.1、如果右下角出现该图，很不幸，就算你翻了强也会出现，我怀疑这是 idea 里的 github 插件问题，跟登录要用 Token 一样
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022230459658.png" alt="image-20211022225413728" style="zoom:38%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022230459658.png" alt="image-20211022225413728" style="zoom:38%;" />
 
 > 那该怎么办呢？
 >
 > 这就是我要用 Github Desktop 的原因了，打开 Github Desktop，可以看到左下角已经有了一次 commit
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022230638721.png" alt="image-20211022230749373" style="zoom:33%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022230638721.png" alt="image-20211022230749373" style="zoom:33%;" />
 >
-> 直接点击右上角的<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoratyporaimage-20211022230749373.png" alt="image-20211022230106611" style="zoom:50%;" />
+> 直接点击右上角的<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoratyporaimage-20211022230749373.png" alt="image-20211022230106611" style="zoom:50%;" />
 >
 > Github Desktop 在番强的情况下，几乎都能成功
 
 7.2、不管你是用 idea 还是 Github Desktop 上传成功，该步直接打开你的 github 网页（之前提到过 Github Desktop 有快捷打开方式）
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022231509784.png" alt="image-20211022232322091" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022231509784.png" alt="image-20211022232322091" style="zoom:50%;" />
 
 
 
@@ -238,21 +238,21 @@ typora-copy-images-to: upload
 
 > - 增加代码会出现下图的绿色颜色显示，它是会与你上次 commit 的对应位置进行智能判断的
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022232227572.png" alt="image-20211022232726511" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022232227572.png" alt="image-20211022232726511" style="zoom:50%;" />
 >
 >
 >
 > - 删除代码会像下图显示并且那个箭头支持点击，里面有撤销的功能
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022232322091.png" alt="image-20211022231509784" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022232322091.png" alt="image-20211022231509784" style="zoom:50%;" />
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022232435976.png" alt="image-20211022232227572" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022232435976.png" alt="image-20211022232227572" style="zoom:50%;" />
 >
 >
 >
 > - 修改之前的代码会出现蓝色显示
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211022232726511.png" alt="image-20211023001212608" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211022232726511.png" alt="image-20211023001212608" style="zoom:50%;" />
 
 2、接下来就是重复之前的 commit 和 push 操作，看之前的 4 — 7.2
 
@@ -296,23 +296,23 @@ typora-copy-images-to: upload
 
 > 了解了回退后会出现的问题，你应该知道了一般是不要回退的
 
-1、点击历史<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoratyporaimage-20211023001212608.png" alt="image-20211022232435976" style="zoom:50%;" />
+1、点击历史<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoratyporaimage-20211023001212608.png" alt="image-20211022232435976" style="zoom:50%;" />
 
 2、选择 Log 窗口
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023005033760.png" alt="image-20211023002718587" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023005033760.png" alt="image-20211023002718587" style="zoom:50%;" />
 
 3、在你想要回退到的 commit 右键
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023004416934.png" alt="image-20211023005033760" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023004416934.png" alt="image-20211023005033760" style="zoom:50%;" />
 
 4、弹出来一个窗口，如果是想彻底删除 B 和 C 的 commit，就选 Hard，其他几个可以自己网上百度区别
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023005428419.png" alt="image-20211023004416934" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023005428419.png" alt="image-20211023004416934" style="zoom:50%;" />
 
 5、Ok，你接下来就会看到少了一个 commit，所以回退请一定要想好后才使用
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023005656460.png" alt="image-20211023005656460" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023005656460.png" alt="image-20211023005656460" style="zoom:50%;" />
 
 
 
@@ -330,7 +330,7 @@ typora-copy-images-to: upload
 
 1、idea 右下角可以看到目前你所处的分支
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023104427352.png" alt="image-20211023104427352" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023104427352.png" alt="image-20211023104427352" style="zoom:50%;" />
 
 > 可看到目前我所处 main 分支中
 >
@@ -340,11 +340,11 @@ typora-copy-images-to: upload
 
 2、点击 main 后可以看到本地所有分支和云端所有分支
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023104819047.png" alt="image-20211023104819047" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023104819047.png" alt="image-20211023104819047" style="zoom:50%;" />
 
 > 这里本地和云端只有 main 分支，给你们看看网校一项目的分支
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023105250336.png" alt="image-20211023105250336" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023105250336.png" alt="image-20211023105250336" style="zoom:50%;" />
 >
 > 可看到云端分支有一大堆，本地分支只有我需要涉及的需求或者 bugfix 分支
 
@@ -352,7 +352,7 @@ typora-copy-images-to: upload
 
 > **注意：**新建分支前如果有未 commit 而修改的代码，请把当前所在的分支 commit 一下，不然在新分支的 commit 后，当前分支没有 commit 时做的代码修改将会全部丢失（来自我含泪白写一堆代码后的教训 :(  ），所以如果有未 commit 而修改的代码**一定要 commit 后新建分支或者 Checkout 分支**
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023105903156.png" alt="image-20211023105903156" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023105903156.png" alt="image-20211023105903156" style="zoom:50%;" />
 
 > - 分支规范如上图，名字 / 类型 / 干什么
     >
@@ -362,25 +362,25 @@ typora-copy-images-to: upload
 >
 > - 刚创建后的新分支与 main 分支相同，拥有刚创建时 main 的所有 commit
 >
-> ![image-20211023110530332](https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023110530332.png)
+> ![image-20211023110530332](https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023110530332.png)
 
 4、新分支操作与 main 分支相同，我们先修改新分支下的代码，在新分支中 commit 一下
 
 > - 其中，我写了一个 test 方法
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023111042218.png" alt="image-20211023111042218" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023111042218.png" alt="image-20211023111042218" style="zoom:50%;" />
 >
 > - 然后再 commit 一下
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023111222995.png" alt="image-20211023111222995" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023111222995.png" alt="image-20211023111222995" style="zoom:50%;" />
 >
 > - 然后打开 Git 窗口
     >
-    >   <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023111320858.png" alt="image-20211023111320858" style="zoom: 50%;" />
+    >   <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023111320858.png" alt="image-20211023111320858" style="zoom: 50%;" />
     >
     >   ==================================================================================
     >
-    >   <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023111458829.png" alt="image-20211023111458829" style="zoom:50%;" />
+    >   <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023111458829.png" alt="image-20211023111458829" style="zoom:50%;" />
     >
     >   > 这里我们可以发现 Git_tutorial 分支比 main 分支多了一次 commit
 
@@ -388,13 +388,13 @@ typora-copy-images-to: upload
 
 > - 操作与 main 分支相同，直接点击 push 即可
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023111736292.png" alt="image-20211023111736292" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023111736292.png" alt="image-20211023111736292" style="zoom:50%;" />
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023111857715.png" alt="image-20211023111857715" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023111857715.png" alt="image-20211023111857715" style="zoom:50%;" />
 >
 > - push 成功后，打开 Github 网页，其中 Compare & pull request 是云端合并分支
     >
-    >   <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023112411362.png" alt="image-20211023112411362" style="zoom:50%;" />
+    >   <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023112411362.png" alt="image-20211023112411362" style="zoom:50%;" />
 
 6、本地 main 分支合并新分支的代码
 
@@ -402,19 +402,19 @@ typora-copy-images-to: upload
 
 > - 合并前，先切回到被合并的 main 分支
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023113149792.png" alt="image-20211023113149792" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023113149792.png" alt="image-20211023113149792" style="zoom:50%;" />
 >
 > - 将新分支的代码合并进 main 分支
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023113657607.png" alt="image-20211023113657607" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023113657607.png" alt="image-20211023113657607" style="zoom:50%;" />
 >
 > - 合并后，再打开 Git 窗口，现在 main 分支已经有新分支的提交了，且代码也与新分支相同
     >
-    >   ![image-20211023114047791](https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023114047791.png)
+    >   ![image-20211023114047791](https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023114047791.png)
 >
 > - 接下来就可以直接将 main 分支 push 到云端
     >
-    >   <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023114618906.png" alt="image-20211023114618906" style="zoom:50%;" />
+    >   <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023114618906.png" alt="image-20211023114618906" style="zoom:50%;" />
 
 
 
@@ -422,7 +422,7 @@ typora-copy-images-to: upload
 
 > - 确保分支不需要后就可以删除，删除很简单，以下是本地分支的删除
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023114823021.png" alt="image-20211023114823021" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023114823021.png" alt="image-20211023114823021" style="zoom:50%;" />
 >
 > - 本地分支虽然被删了，但还有云端分支，操作是一样的，点击 Remote Branches 里的分支删除即可
 
@@ -432,11 +432,11 @@ typora-copy-images-to: upload
 >
 > - 切换云端分支其实很简单，点击想切的云端分支，再 Checkout 即可
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023120306069.png" alt="image-20211023120306069" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023120306069.png" alt="image-20211023120306069" style="zoom:50%;" />
 >
 > - 我们可以发现 idea 会自动下载云端分支到本地
     >
-    >   <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023120422620.png" alt="image-20211023120422620" style="zoom:50%;" />
+    >   <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023120422620.png" alt="image-20211023120422620" style="zoom:50%;" />
 
 
 
@@ -458,7 +458,7 @@ typora-copy-images-to: upload
 
 1、develop 分支在云端已经有了新版本
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023122058529.png" alt="image-20211023122058529" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023122058529.png" alt="image-20211023122058529" style="zoom:50%;" />
 
 2、将新的 develop 分支与自己的分支合并
 
@@ -472,7 +472,7 @@ typora-copy-images-to: upload
 >
 > 如果我提醒了你，你还出现了这种情况，那就 Ctrl + Z 回退吧（如果合并时生成了新的提交，回退大法也救不了你，只能自己靠记忆改回去了:(  ）
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023123258299.png" alt="image-20211023123258299" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023123258299.png" alt="image-20211023123258299" style="zoom:50%;" />
 
 
 
@@ -514,7 +514,7 @@ typora-copy-images-to: upload
 
 1、[点我看教程](https://zhuanlan.zhihu.com/p/368485412#:~:text=%20%E5%BE%88%E5%A4%9A%E4%BA%BA%E4%BC%9A%E5%87%BA%E7%8E%B0%EE%80%80Github%EE%80%81%E7%AA%81%E7%84%B6%EE%80%80%E7%99%BB%E4%B8%8D%EE%80%81%E4%B8%8A%E5%8E%BB%EF%BC%8C%E6%88%96%E8%80%85%E8%AE%BF%E9%97%AE%E9%80%9F%E5%BA%A6%E5%BE%88%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98%E3%80%82%E5%85%B6%E5%AE%9E%E6%94%B9%E4%B8%AAHOST%E5%B0%B1%E8%83%BD%E8%A7%A3%E5%86%B3%E3%80%82%20%E6%89%BE%E5%88%B0%E4%BC%98%E7%A7%80%E7%9A%84%E8%AE%BF%E9%97%AE%E5%BB%B6%E8%BF%9FIP,%E6%88%91%E4%BB%AC%E5%8E%BB%20%E7%BD%91%E7%AB%99%E6%B5%8B%E9%80%9F%20%E6%B5%8B%E8%AF%95%E5%85%A8%E7%90%83%E5%90%84%E5%9C%B0%E8%BF%9E%E6%8E%A5%EE%80%80github%EE%80%81.com%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8IP%E5%92%8C%E5%93%8D%E5%BA%94%E9%80%9F%E5%BA%A6%EF%BC%8C%E9%9C%80%E8%A6%81%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%E6%B5%8B%E8%AF%95%E5%85%A8%E9%83%A8%E6%95%B0%E6%8D%AE%E3%80%82)
 
-2、打开 cmd 输入 ipconfig/flushed
+2、打开 cmd 输入 ipconfig/flushdns
 
 > 不会改  host
 >
@@ -526,7 +526,7 @@ typora-copy-images-to: upload
 
 3、改 host 仍然会存在不稳定的情况，这个就要靠你们自己解决了
 
-## Amend 按钮
+## Amend 按钮（改正上一次提交）
 
 > 该按钮用于以下情况：
 >
@@ -536,21 +536,21 @@ typora-copy-images-to: upload
 
 1、比如我写了个 amen 方法（本来要写 amend）
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023002237750.png" alt="image-20211023002237750" style="zoom:40%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023002237750.png" alt="image-20211023002237750" style="zoom:40%;" />
 
 2、结果我没注意，直接生成 commit 了（本来我要写的是 amend() 方法，少了一个字母 d）
 
-<img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023002718587.png" alt="image-20211023005428419" style="zoom:50%;" />
+<img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023002718587.png" alt="image-20211023005428419" style="zoom:50%;" />
 
 3、在**还没有提交到云端前**我发现了这个问题，这时我不想生成一次新的 commit 来修护这个问题，就可以用 Amend() 来合并到上次提交
 
 > 先修改至正确的代码
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023003142321.png" alt="image-20211023003142321" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023003142321.png" alt="image-20211023003142321" style="zoom:50%;" />
 >
-> 然后再提交中，选上 Amend 按钮，可以发现注释直接变成上一次的，再这里可以修改上一次的描述
+> 然后再提交中，选上 Amend 按钮，可以发现注释直接变成上一次的，在这里可以修改上一次的描述
 >
-> <img src="https://985892345-1307243988.cos.ap-chengdu.myqcloud.com/img/typoraimage-20211023003613262.png" alt="image-20211023003613262" style="zoom:50%;" />
+> <img src="https://gitee.com/guo985892345/typora/raw/master/img/typoraimage-20211023003613262.png" alt="image-20211023003613262" style="zoom:50%;" />
 
 4、最后再说一遍，前提是**这次提交还没有 push 到云端**，出问题了自己去回退 commit 解决
 
